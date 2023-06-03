@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Exemplo</title>
+    <style>
+        body {
+            overflow-y: scroll;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 100vh;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin-bottom: 5px;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introdução</a></li>
+            <li><a href="#titles">Títulos</a></li>
+            <li><a href="#text-highlighting">Destacar Texto</a></li>
+            <li><a href="#lists">Listas</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#horizontal-line">Linha Horizontal</a></li>
+            <li><a href="#sup-sub">Texto Sobrescrito e Subscrito</a></li>
+            <li><a href="#block-quotes">Citações em Bloco</a></li>
+            <li><a href="#dialog">Diálogo</a></li>
+            <li><a href="#ref">Referencias</a></li>
+
+        </ul>
+    </nav>
+
+    <h1 id="introduction">Tags HTML</h1>
+    <hr>
+    <h2 id="titles">Introdução</h2>
+    <p>Bem-vindo a esta página que explora algumas tags HTML e sua funcionalidade.</p>
+
+    <h2 id="text-highlighting">Títulos</h2>
+    <p>Os títulos são usados para destacar informações importantes em uma página.</p>
+    <h3>&lt;h1&gt; até &lt;h6&gt;</h3>
+    <p>Essas tags são usadas para definir cabeçalhos em um documento HTML, do mais importante (h1) ao menos importante
+        (h6).</p>
+
+    <h2 id="text-highlighting">Destacar Texto</h2>
+    <p>Essas tags são usadas para enfatizar ou destacar texto em uma página.</p>
+    <h3>&lt;mark&gt;</h3>
+    <p>Marca o texto com uma cor de fundo para destacá-lo. Exemplo: <mark>Texto destacado</mark></p>
+    <h3>&lt;strong&gt;</h3>
+    <p>Indica que o texto é semanticamente importante e é exibido em negrito. Exemplo: <strong>Texto em negrito</strong>
+    </p>
+    <h3>&lt;i&gt;</h3>
+    <p>Usado para enfatizar o texto, geralmente exibido em itálico. Exemplo: <i>Texto em itálico</i></p>
+    <h3>&lt;u&gt;</h3>
+    <p>Sublinha o texto para destacá-lo. Exemplo: <u>Texto sublinhado</u></p>
+
+    <h2 id="lists">Listas</h2>
+    <p>Listas são usadas para agrupar itens relacionados em uma página.</p>
+    <h3>&lt;ol&gt;</h3>
+    <p>Cria uma lista ordenada, onde cada item é marcado com um número sequencial.</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <h3>&lt;ul&gt;</h3>
+    <p>Cria uma lista não ordenada, onde cada item é marcado com um marcador.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h3>&lt;li&gt;</h3>
+    <p>Define um item em uma lista.</p>
+
+    <h2 id="links">Links</h2>
+    <p>Links são usados para conectar páginas ou recursos relacionados.</p>
+    <h3>&lt;a&gt;</h3>
+    <p>Cria um link para outra página da web, arquivo ou seção na mesma página.</p>
+    <p>Exemplo de link: <a href="https://www.example.com">Visite o exemplo.com</a></p>
+
+    <h2 id="horizontal-line">Linha Horizontal</h2>
+    <p>A tag hr cria uma linha horizontal para separar seções de conteúdo.</p>
+    <h3>&lt;hr&gt;</h3>
+    <p>Cria uma linha horizontal.</p>
+    <hr>
+
+    <h2 id="sup-sub">Texto Sobrescrito e Subscrito</h2>
+    <p>Essas tags são usadas para exibir texto sobrescrito ou subscrito em uma página.</p>
+    <h3>&lt;sup&gt;</h3>
+    <p>Exibe o texto como sobrescrito. Exemplo: X<sup>2</sup></p>
+    <h3>&lt;sub&gt;</h3>
+    <p>Exibe o texto como subscrito. Exemplo: H<sub>2</sub>O</p>
+
+    <h2 id="block-quotes">Citações em Bloco</h2>
+    <p>A tag blockquote é usada para destacar uma citação em bloco.</p>
+    <h3>&lt;blockquote&gt;</h3>
+    <p>Define uma citação em bloco. Exemplo:</p>
+    <blockquote>
+        <p>"Uma citação é uma frase ou um parágrafo retirado de algum texto ou discurso, geralmente usado para ilustrar
+            ou suportar um ponto."</p>
+        <p>- Autor Desconhecido ou Conhecido não tem mesmo como saber na internet.</p>
+    </blockquote>
+
+    <h2 id="dialog">Diálogo</h2>
+    <p>A tag dialog é usada para exibir um diálogo ou uma caixa de diálogo na página.</p>
+    <h3>&lt;dialog&gt;</h3>
+    <p>Define um diálogo. Exemplo:</p>
+
+
+    <h2 id="ref">Links de referências</h2>
+    <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="#">http://flamengo.com.br</a></li>
+    </ul>
+    <dialog open>Aproveite AMIGOS</dialog>
+</body>
+
+</html>
